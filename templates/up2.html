@@ -1,0 +1,43 @@
+<html>
+	<head>
+		
+		<script src="/static/jquery-3.3.1.min.js"></script>
+		
+
+
+		<style type="text/css">
+			.dropzone {
+			    border: 2px dashed #0087F7;
+			    border-radius: 5px;
+			    background: white;
+			}
+
+			.dropzone {
+			    min-height: 150px;
+			    border: 2px solid rgba(0, 0, 0, 0.3);
+			    background: white;
+			    padding: 54px 54px;
+			}
+		</style>
+	</head>
+   <body>
+   		<script src="/static/dropzone.js"></script>
+      	<form action="/uploader" class="dropzone">
+		</form>
+
+		<p class="caption">{{ cap }}</p>
+   		<audio controls>
+  			<source id="speech" src="/static/speech.mp3" type="audio/mpeg">
+  		</audio>
+
+
+   
+		  
+   </body>
+
+
+
+</html>
+
+
+
